@@ -97,6 +97,6 @@ const server = http.createServer((req, res) => {
         res.end("Couldn't find the page you were looking for");
     }
 });
-server.listen(8000, '127.0.0.1', () => {
+server.listen(8000,() => {
     console.log('Server started up on port 8000');
 });
